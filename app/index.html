@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="../lib/complex_array.js"></script>
+    <script src="../lib/fft.js"></script>
+    <script src="noodle.js"></script>
+    
+    <link rel="stylesheet" href="example.css">
+    
+  </head>
+  
+  
+  <body>
+    
+    
+    <!-- ORIGINAL -->
+    <div class="container">
+      <div class="panel">
+        <div id="boop.mp3-original" class="example"></div>
+        <div class="explanation">
+          Sample data
+        </div>
+      </div>
+      <div class="panel">
+        <div id="boop.mp3-fft" class="example"></div>
+        <div class="explanation">
+          Transform (in place):<br>
+          <code>
+          data.FFT()
+          </code>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+
+    <!-- COPY -->
+    <div class="container">
+      <div class="panel">
+        <div id="boop-copy.mp3-original" class="example"></div>
+        <div class="explanation">
+          COPY SAMPLE
+        </div>
+      </div>
+      <div class="panel">
+        <div id="boop-copy.mp3-fft" class="example"></div>
+        <div class="explanation">
+          COPY Transform (in place):<br>
+          <code>
+          data.FFT()
+          </code>
+        </div>
+      </div>
+    </div>
+
+        <!-- CROSS CORRELATION -->
+      <div class="container">
+      <div class="panel">
+        <div id="fft-product" class="example"></div>
+        <div class="explanation">
+          fft-product
+        </div>
+      </div>
+      <div class="panel">
+        <div id="cross-correlation" class="example"></div>
+        <div class="explanation">
+          Cross Correlation:<br>
+         
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+
+
+</body>
+</html>
