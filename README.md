@@ -5,4 +5,4 @@ Graphs fast fourier transforms and cross correlations of sound files
 2. start a simple python server in the root dir
 3. go to localhost:portnum/app/ to see the comparisons
 
-![fft](/app/screenshot.png?raw=true "fft")
+![fft](screenshot.png?raw=true "fft")
